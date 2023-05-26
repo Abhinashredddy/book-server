@@ -4,7 +4,7 @@ const cors = require('cors');
 
 
 // Connect to MongoDB using Mongoose
-mongoose.connect('mongodb+srv://abhinash:RM9kbbdRzvixqLNm@cluster0.pjkpwml.mongodb.net/?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb+srv://abhinash:RM9kbbdRzvixqLNm@cluster0.pjkpwml.mongodb.net/final_project?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('Connected to MongoDB'))
   .catch(error => console.error('Failed to connect to MongoDB:', error));
 
